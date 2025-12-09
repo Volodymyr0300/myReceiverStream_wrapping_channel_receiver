@@ -1,0 +1,9 @@
+[package]
+name = "myReceiverStream_wrapping_channel_receiver"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+trpl = "0.3.0"
+futures = "0.3"
+tokio = { version = "1", features = ["sync"] }
